@@ -1,3 +1,33 @@
-.box{
+#container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blue;
     
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 50px;
+    margin: 4px 4px;
+}
+
+.m3 {
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.m5 {
+    background-color: aqua;
+    border-radius: 25%;
+}
+
+.m3eem5 {
+    background-color: lightsalmon;
+    border-radius: 15%;
 }
